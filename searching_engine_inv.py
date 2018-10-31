@@ -67,6 +67,7 @@ def main():
     for _ in range(100):  # работа поисковика
         input()
         system('cls')
+
         request = [word.lower() for word in input('Что ищем: ').split()]
 
         start_time = time()
